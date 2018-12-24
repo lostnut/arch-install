@@ -225,6 +225,13 @@ Generate locale(s) :
 ```shell
 $ locale-gen
 ```
+
+Add locale in `/etc/locale.conf`
+
+```shell
+$ echo "<locale>" > /etc/locale.conf
+```
+
 ### Hostname
 
 Set hostname:
